@@ -1,4 +1,4 @@
-@import  "//fonts.googleapis.com/css?family=Montserrat";
+@import '//fonts.googleapis.com/css?family=Montserrat';
 
 html {
   height: 100%;
@@ -10,16 +10,19 @@ body {
   width: auto;
   height: auto;
   min-height: 100%;
-  font-family: "Montserrat",sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.42857;
   font-size: 17px;
-  background-color: rgba(0,0,0,1);
-  color: #FFF;
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
   word-wrap: normal;
 }
 
-a,a:visited,a:active,a:hover {
-  color: #FFF;
+a,
+a:visited,
+a:active,
+a:hover {
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -35,7 +38,7 @@ section {
   right: 0;
   bottom: 0;
   left: 0;
-  content: "";
+  content: '';
   z-index: 0;
 }
 
@@ -50,7 +53,7 @@ section {
 }
 
 .user-signup__submit {
-  line-height: .5em;
+  line-height: 0.5em;
 }
 
 .user-signup__form {
@@ -63,7 +66,11 @@ section {
 }
 
 @media all and (max-width: 767px) {
-  .form-horizontal .mt-table,.form-horizontal .mt-table--full,.form-horizontal .mt-table--centered,.form-horizontal .mt-table--full,.form-horizontal .mt-td--centered-vertical {
+  .form-horizontal .mt-table,
+  .form-horizontal .mt-table--full,
+  .form-horizontal .mt-table--centered,
+  .form-horizontal .mt-table--full,
+  .form-horizontal .mt-td--centered-vertical {
     display: block;
   }
 }
@@ -135,7 +142,8 @@ section {
   margin-bottom: 30px;
 }
 
-.mt-table,.mt-table--full {
+.mt-table,
+.mt-table--full {
   display: table;
 }
 
@@ -143,7 +151,8 @@ section {
   width: 100%;
 }
 
-.mt-td,.mt-td--centered-vertical {
+.mt-td,
+.mt-td--centered-vertical {
   display: table-cell;
 }
 
@@ -165,13 +174,13 @@ section {
 
 .bg-image {
   /* photo from: https://www.pexels.com/photo/dawn-landscape-mountains-nature-1852/ */
-  background-image: url(/res/background.jpg);
+  background-image: url(/res/background.jpeg);
   background-attachment: scroll;
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
-  opacity: .69;
+  opacity: 0.69;
 }
 
 h1 {
@@ -193,15 +202,15 @@ h1 {
   padding-left: 20px;
   height: 50px;
   background-color: #00a651;
-  color: #FFF;
+  color: #fff;
 }
 
 .user-signup__submit:hover {
   background-color: #1cd861;
-  color: #FFF;
+  color: #fff;
 }
 
-@media all and (min-width:481px) {
+@media all and (min-width: 481px) {
   p {
     font-size: 22px;
   }
@@ -211,7 +220,7 @@ h1 {
   }
 }
 
-@media all and (min-width:769px) {
+@media all and (min-width: 769px) {
   p {
     font-size: 22px;
   }
